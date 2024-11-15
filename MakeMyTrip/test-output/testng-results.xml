@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-15T12:00:33 IST" name="Default suite" finished-at="2024-11-15T12:01:24 IST" duration-ms="51167">
+    <groups>
+    </groups>
+    <test started-at="2024-11-15T12:00:33 IST" name="Default test" finished-at="2024-11-15T12:01:24 IST" duration-ms="51167">
+      <class name="Build001.makemytrip">
+        <test-method is-config="true" signature="SetupSuite()[pri:0, instance:Build001.makemytrip@5e5d171f]" started-at="2024-11-15T12:00:33 IST" name="SetupSuite" finished-at="2024-11-15T12:00:33 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupSuite -->
+        <test-method is-config="true" signature="opens_Browser()[pri:0, instance:Build001.makemytrip@5e5d171f]" started-at="2024-11-15T12:00:33 IST" name="opens_Browser" finished-at="2024-11-15T12:00:36 IST" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opens_Browser -->
+        <test-method is-config="true" signature="pageloading()[pri:0, instance:Build001.makemytrip@5e5d171f]" started-at="2024-11-15T12:00:36 IST" name="pageloading" finished-at="2024-11-15T12:00:50 IST" duration-ms="14472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageloading -->
+        <test-method signature="booking(java.lang.String,java.lang.String)[pri:1, instance:Build001.makemytrip@5e5d171f]" started-at="2024-11-15T12:00:50 IST" name="booking" data-provider="location" finished-at="2024-11-15T12:01:22 IST" duration-ms="32108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hyd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[del]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Build001.makemytrip@5e5d171f]" started-at="2024-11-15T12:00:50 IST" name="login" finished-at="2024-11-15T12:00:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="loggingout()[pri:0, instance:Build001.makemytrip@5e5d171f]" started-at="2024-11-15T12:01:22 IST" name="loggingout" finished-at="2024-11-15T12:01:24 IST" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingout -->
+        <test-method is-config="true" signature="pagecleanup()[pri:0, instance:Build001.makemytrip@5e5d171f]" started-at="2024-11-15T12:01:24 IST" name="pagecleanup" finished-at="2024-11-15T12:01:24 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagecleanup -->
+        <test-method is-config="true" signature="closing_browser()[pri:0, instance:Build001.makemytrip@5e5d171f]" started-at="2024-11-15T12:01:24 IST" name="closing_browser" finished-at="2024-11-15T12:01:24 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing_browser -->
+        <test-method is-config="true" signature="ClosingSuite()[pri:0, instance:Build001.makemytrip@5e5d171f]" started-at="2024-11-15T12:01:24 IST" name="ClosingSuite" finished-at="2024-11-15T12:01:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingSuite -->
+      </class> <!-- Build001.makemytrip -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
